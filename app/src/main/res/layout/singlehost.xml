@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/llmain"
+
+    android:elevation="3dp"
+android:background="#300067A1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#fff"
+        android:id="@+id/ll"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/hostdisname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="1dp"
+                    android:paddingBottom="0dp"
+                    android:textStyle="bold"
+                    android:text="Test Name with name"
+                    android:textColor="#000" />
+                <TextView
+                    android:id="@+id/hostdisemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+
+                    android:text="Email" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:padding="1dp"
+
+
+                    android:gravity="bottom"
+
+                    android:orientation="horizontal" android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="12dp"
+                        android:id="@+id/hostdisph"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="3dp"
+                        android:layout_gravity="center"
+                        android:textColor="#000"
+                        android:text="phone"/>
+
+                    <ImageView
+                        android:id="@+id/tvMoney"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="11dp"
+                        android:layout_marginLeft="5dp"
+
+                        android:src="@drawable/assetphone"
+                        android:layout_gravity="center"
+                        android:textColor="#000"
+                        android:text="30 questions" /></LinearLayout>
+
+                <Button
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/optionalbutton"
+                    android:text="Check-In now"
+                    android:id="@+id/submit"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textColor="#000" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

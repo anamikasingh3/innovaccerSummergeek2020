@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#fff"
+
+    tools:context=".Hostdetails">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/bag"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/hostname"
+            android:textSize="14dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:id="@+id/hostid"
+            android:hint="Enter your email" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hostph"
+            android:textSize="14dp"
+            android:hint="Enter your Phone number" />
+    </com.google.android.material.textfield.TextInputLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:text="Submit"
+    android:textColor="#fff"
+    android:textAllCaps="false"
+    android:background="@drawable/buttonview"
+    android:id="@+id/hostsub"/>
+</LinearLayout>

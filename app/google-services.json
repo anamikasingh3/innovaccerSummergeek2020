@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "590367147794",
+    "firebase_url": "https://summergeek-e18e2.firebaseio.com",
+    "project_id": "summergeek-e18e2",
+    "storage_bucket": "summergeek-e18e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590367147794:android:c2fc7834dd32124f5215cb",
+        "android_client_info": {
+          "package_name": "com.innnovacer.summergeek2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590367147794-806jis19c8arfcd5o2vp12hc3a7poj2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.innnovacer.summergeek2020",
+            "certificate_hash": "818b1ed7ac61c58b3fa78e095ac55ba02b881e54"
+          }
+        },
+        {
+          "client_id": "590367147794-dnhr83sl44a6daqnf7jua46ufi4fut29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgheHRmILwI1jovDRaUOcUDs00yy_Tdws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590367147794-dnhr83sl44a6daqnf7jua46ufi4fut29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
