@@ -16,7 +16,7 @@ Add Host Details here:
 we can view previous added Hosts/also select host for check-in 
 
 <html>
-<img src="Screenshot_20191128-221441" width="250"></html>
+<img src="Screenshot_20191128-221441.png" width="250"></html>
 
 
 Check-in from here by adding your details
