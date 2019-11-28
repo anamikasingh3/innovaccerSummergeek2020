@@ -4,8 +4,8 @@
 Select one of these 
 - Add yourself to host: to add yourself as Host in the Application
 - See All Hosts : see the hosts details who have registered before 
-
-❮img src="a.png"❯
+<html>
+❮img src="a.png"❯</html>
 
 Add Host Details here: 
 ![Screenshot_20191128-221503](https://user-images.githubusercontent.com/42402853/69824277-40ea0f00-1231-11ea-9e0c-602a3966b373.png)
